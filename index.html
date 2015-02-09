@@ -40,8 +40,6 @@
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!-- 1. load the webfonts -->
-    <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css"/>
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all"/>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.6, initial-scale=1.0"/>
     <meta name="HandheldFriendly" content="True"/>
@@ -65,10 +63,8 @@
     <link rel="dns-prefetch" href="index.html"/>
 
 
-    <!-- 2. set up some css styles using the webfonts -->
-    <style type="text/css">
-        .JoannaMTStd-Regular { font-family: JoannaMTStd-Regular; }
-    </style>
+    <!-- load the webfonts -->
+    <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css"/>
 
 </head>
 <body>
@@ -144,6 +140,11 @@
                     <span class="icon iphone trans delay-4"></span>
                 </div>
                 <div class="title">RESPONSIVE APPROACH</div>
+                <section class="sub" id="sub1">
+                    <div class="example title">
+                        <h3 id="example1">ALPHA</h3>
+                    </div>
+                </section>
                 <div class="subtitle">Find out more</div>
                 <div class="grid-slider" id="grid-slider">
                     <div class="grid-slider-line"></div>
@@ -188,7 +189,7 @@
     <aside class="home-bg-line" data-anchor-target="#about-text" data-bottom-top="width:5px"
            data-top="width:1332px;"></aside>
 
-    <h1 class="about-title" itemprop="description">UX DRIVEN WEBSITES, CUSTOMIZED WITH CARE</h1>
+    <h1 class="about-title" itemprop="description">UX DRIVEN WEBSITES, CUSTOMIZED WITH CARE.</h1>
 
     <article class="white-section" id="about-text">
         <section class="text-holder">
@@ -396,10 +397,10 @@
              data-cycle-pager="#selected-work-nav" data-cycle-pager-template="" data-cycle-pager-active-class="loc"
              data-cycle-next="#selected-work-next" data-cycle-prev="#selected-work-prev" data-cycle-auto-height="calc">
 
-            <article class="selected-work-slider-item" style="background: #8CF8C1" itemscope
+            <article class="selected-work-slider-item" style="background: #7bd3f7" itemscope
                      itemtype="http://schema.org/WebSite">
                 <a href="portfolio-work/project_eight.html" class="selected-work-slider-link" itemprop="url">
-                    <img src="uploaded/projects/project_eight/local-ipad.png"
+                    <img src="uploaded/projects/project_eight/kommi-ipad.png"
                          alt="Alpha Design &amp; Development project: Project_eight"
                          class="selected-work-slider-img trans-fast"
                          itemprop="image"/>
@@ -411,7 +412,7 @@
             <article class="selected-work-slider-item" style="background: #766E67" itemscope
                      itemtype="http://schema.org/WebSite">
                 <a href="portfolio-work/project_seven.html" class="selected-work-slider-link" itemprop="url">
-                    <img src="uploaded/projects/project_seven/project_seven.png.png"
+                    <img src="uploaded/projects/project_seven/project_seven.png"
                          alt="Alpha Design &amp; Development project: project_seven"
                          class="selected-work-slider-img trans-fast"
                          itemprop="image"/>
@@ -458,37 +459,9 @@
 
     <section class="twitter-block">
         <div class="twitter-inner">
-            <div class="icon twitter-icon"></div>
-
-            <aside class="twitter-slider cycle-slideshow" data-cycle-speed="700" data-cycle-timeout="0"  
-                   data-cycle-log="false" data-cycle-slides=".twitter-slider-item" data-cycle-fx="fade"  
-                   data-cycle-pager="#twitter-slide-nav" data-cycle-pager-template=""
-                   data-cycle-pager-active-class="loc"   data-cycle-auto-height="calc" itemscope
-                   itemtype="http://schema.org/UserTweets"> 
-                <div class="twitter-slider-item" itemprop="description">  Test tweet 1 <a href="http://t.co/"  
-                                                                                          target="_blank">http://t.co/</a>
-                    via @ 
-                </div>
-                 
-                <div class="twitter-slider-item" itemprop="description">  Test tweet 2 <a href="http://t.co/"
-                                                                                          target="_blank">http://t.co/</a>
-                    via @ 
-                </div>
-                 
-                <div class="twitter-slider-item" itemprop="description">  Test tweet 3 <a  href="http://t.co/"
-                    target="_blank">http://t.co/</a></div>
-                via @ 
-            </aside>
-              
-            <aside class="slide-nav-hor external" id="twitter-slide-nav">  <span class="slide-nav-dot trans"><span
-                    class="slide-nav-line trans"></span></span>  <span class="slide-nav-dot trans"><span
-                    class="slide-nav-line trans"></span></span>  <span class="slide-nav-dot trans"><span
-                    class="slide-nav-line trans"></span></span> 
-            </aside>
-              <a href="https://twitter.com/alphadesigndev" target="_blank" class="twitter-link">Follow</a>
-
-            <a href="https://twitter.com/alphadesigndev" target="_blank" class="twitter-link">Follow</a>
-
+              <a href="https://twitter.com/alphadesigndev" target="_blank" class="twitter-link">Twitter</a>
+            <a href="https://facebook.com/alphadesigndev" target="_blank" class="twitter-link">Facebook</a>
+            <a href="https://facebook.com/alphadesigndev" target="_blank" class="twitter-link">Linkedin</a>
         </div>
     </section>
 
@@ -652,6 +625,86 @@
     ga('create', 'UA-11298765-8', 'alpha-dd.com');
     ga('send', 'pageview');
 </script>
+
+<script type="text/javascript" src="js/jquery.arctext.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    var $headline = $('#headline').hide();
+
+    var $word1		= $('#arc-wrapper').find('h3').hide();
+    var $word2		= $('#arc-wrapper').find('h4').hide();
+
+    var $example1	= $('#example1').hide();
+    var $example2	= $('#example2').hide();
+    var $example3	= $('#example3').hide();
+    var $example4	= $('#example4').hide();
+
+    google.load('webfont','1');
+
+    google.setOnLoadCallback(function() {
+        WebFont.load({
+            google		: {
+                families	: ['Montserrat','Concert One']
+            },
+            fontactive	: function(fontFamily, fontDescription) {
+                init();
+            },
+            fontinactive	: function(fontFamily, fontDescription) {
+                init();
+            }
+        });
+    });
+
+    function init() {
+
+        $headline.show().arctext({radius: 400});
+
+        $word1.show().arctext();
+        $word2.show().arctext({radius: 148, dir: -1});
+
+        $example1.show().arctext({radius: 300});
+        $example2.show().arctext({radius: 400, dir: -1});
+        $example3.show().arctext({radius: 500, rotate: false});
+        $example4.show().arctext({radius: 300});
+
+        $('#button_set').on('click', function() {
+            $example4.arctext('set', {
+                radius		: 140,
+                dir			: -1
+            });
+            return false;
+        });
+        $('#button_anim1').on('click', function() {
+            $example4.arctext('set', {
+                radius		: 300,
+                dir			: -1,
+                animation	: {
+                    speed	: 300,
+                    easing  : 'ease-out'
+                }
+            });
+            return false;
+        });
+        $('#button_anim2').on('click', function() {
+            $example4.arctext('set', {
+                radius		: 200,
+                dir			: 1,
+                animation	: {
+                    speed	: 300
+                }
+            });
+            return false;
+        });
+        $('#button_reset').on('click', function() {
+            $example4.arctext('set', {
+                radius		: 300,
+                dir			: 1
+            });
+            return false;
+        });
+
+    };
+</script/>
 </body>
 </html>
          
