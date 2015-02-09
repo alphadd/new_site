@@ -1,3 +1,12 @@
+@import url("//hello.myfonts.net/count/2d4a9e");
+
+
+@font-face {font-family: 'JoannaMTStd-Regular';src: url('webfonts/2D4A9E_0_0.eot');src: url('webfonts/2D4A9E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2D4A9E_0_0.woff2') format('woff2'),url('webfonts/2D4A9E_0_0.woff') format('woff'),url('webfonts/2D4A9E_0_0.ttf') format('truetype');}
+
+
+/****End Of Custom Font*****/
+
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
 }
@@ -754,7 +763,7 @@ body, html {
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-family: JoannaMTStd-Regular;
     font-size: 16px;
     line-height: 26px;
     color: #282828;
@@ -930,7 +939,7 @@ a, img {
 
 .menu-holder .menu {
     padding: 175px 76px 0 0;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular", serif;
     font-size: 25px;
     line-height: 27px;
     color: #fff;
@@ -1292,7 +1301,7 @@ a, img {
 .why-section {
     width: 100%;
     position: relative;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular";
     font-size: 30px;
     line-height: 32px;
     color: #282828;
@@ -1981,7 +1990,7 @@ a, img {
     zoom: 1;
     position: relative;
     margin: 0 80px 260px 80px;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular";
     font-size: 25px;
     line-height: 27px;
     color: #fc6454;
@@ -2122,7 +2131,7 @@ a, img {
 
 .process .process-slider-number {
     text-align: center;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular";
     font-size: 25px;
     line-height: 27px;
     color: #282828;
@@ -2258,7 +2267,7 @@ a, img {
     zoom: 1;
     padding: 17px 35px;
     min-width: 80px;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular";
     font-size: 21px;
     line-height: 23px;
     color: #fff;
@@ -2469,7 +2478,7 @@ a, img {
     vertical-align: top;
     zoom: 1;
     position: relative;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular";
     font-size: 14px;
     line-height: 16px;
     color: #646464;
@@ -2949,7 +2958,7 @@ a, img {
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular";
     font-size: 16px;
     line-height: 18px;
     color: #282828;
@@ -2974,7 +2983,7 @@ a, img {
 .sitemap a {
     display: block;
     text-align: center;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 20px;
     line-height: 22px;
     color: #282828;
@@ -3097,7 +3106,7 @@ a, img {
     zoom: 1;
     padding: 17px 35px;
     min-width: 80px;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 21px;
     line-height: 23px;
     color: #404040;
@@ -3278,7 +3287,7 @@ a, img {
     zoom: 1;
     padding: 17px 35px;
     min-width: 80px;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 21px;
     line-height: 23px;
     color: #fff;
@@ -3327,7 +3336,7 @@ a, img {
     -moz-opacity: 0.9;
     -khtml-opacity: 0.9;
     -webkit-opacity: 0.9;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 154px;
     line-height: 161px;
     color: #c5b547;
@@ -3336,7 +3345,7 @@ a, img {
 }
 
 .title-404 {
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 184px;
     line-height: 184px;
     color: #282828;
@@ -3375,7 +3384,7 @@ a, img {
 }
 
 .search-result .box {
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 20px;
     line-height: 22px;
     color: #282828;
@@ -3403,7 +3412,7 @@ a, img {
     zoom: 1;
     padding: 17px 35px;
     min-width: 80px;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 21px;
     line-height: 23px;
     color: #fff;
@@ -3515,7 +3524,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title, .about-title, .big-title, .footer-title, .subtitle, .third-title {
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: JoannaMTStd-Regular;
     font-size: 40px;
     line-height: 50px;
     color: #282828;
@@ -3595,7 +3604,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .initial-letter {
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 191px;
     line-height: 191px;
     color: #fff;
@@ -3605,7 +3614,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bordered-title {
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 22px;
     line-height: 24px;
     color: #fff;
@@ -4096,7 +4105,7 @@ input:focus, select:focus, textarea:focus {
     display: block;
     float: none;
     background: #fff;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 16px;
     line-height: 18px;
     color: #737373;
@@ -4209,7 +4218,7 @@ input:focus, select:focus, textarea:focus {
 .input, .textarea {
     width: 100%;
     border: none;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 16px;
     line-height: 18px;
     color: #929292;
@@ -4329,7 +4338,7 @@ input:focus, select:focus, textarea:focus {
 .ns-input {
     width: 100%;
     border: none;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 16px;
     line-height: 18px;
     color: #737373;
@@ -4408,7 +4417,7 @@ input:focus, select:focus, textarea:focus {
 .form-reply, .ns-reply {
     margin: 0;
     padding: 10px 0;
-    font-family: "inconsolatamedium", Arial, Helvetica, sans-serif;
+    font-family: "JoannaMTStd-Regular"; 
     font-size: 18px;
     line-height: 24px;
     color: #fc6454;
