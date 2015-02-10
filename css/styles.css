@@ -2921,7 +2921,7 @@ a, img {
     transform: translateX(0);
 }
 
-.project-toolbar .st_facebook_custom, .project-toolbar .st_twitter_custom, .project-toolbar .st_pinterest_custom, .project-toolbar .st_sharethis_custom {
+.project-toolbar .st_facebook_custom, .project-toolbar .st_twitter_custom, .st_linkedin_custom, .project-toolbar .st_googleplus_custom, .project-toolbar .st_tumblr_custom, .project-toolbar .st_email_custom, .project-toolbar .st_pinterest_custom, .project-toolbar .st_sharethis_custom {
     width: 100%;
     height: 100%;
     display: block;
@@ -3902,6 +3902,38 @@ a, a:hover, .trans, .trans:hover, input, input:focus, textarea, textarea:focus, 
     -moz-transition-delay: 400ms;
     -o-transition-delay: 400ms;
     -ms-transition-delay: 400ms;
+}
+
+.delay-5 {
+    transition-delay: 500ms;
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    -ms-transition-delay: 500ms;
+}
+
+.delay-6 {
+    transition-delay: 600ms;
+    -webkit-transition-delay: 600ms;
+    -moz-transition-delay: 600ms;
+    -o-transition-delay: 600ms;
+    -ms-transition-delay: 600ms;
+}
+
+.delay-7 {
+    transition-delay: 700ms;
+    -webkit-transition-delay: 700ms;
+    -moz-transition-delay: 700ms;
+    -o-transition-delay: 700ms;
+    -ms-transition-delay: 700ms;
+}
+
+.delay-8 {
+    transition-delay: 800ms;
+    -webkit-transition-delay: 800ms;
+    -moz-transition-delay: 800ms;
+    -o-transition-delay: 800ms;
+    -ms-transition-delay: 8 00ms;
 }
 
 .delay-5 {
