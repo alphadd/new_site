@@ -1012,7 +1012,11 @@ a, img {
 
 .menu-holder {
     width: 100%;
+<<<<<<< HEAD
     max-width: 225px;
+=======
+    max-width: 217px;
+>>>>>>> origin/master
     height: 100%;
     position: fixed;
     z-index: 600;
