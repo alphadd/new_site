@@ -1690,23 +1690,23 @@ a, img {
     top: -5px;
 }
 
-.why-section.why-section-romvos {
+.why-section.why-section-alphadd {
     width: 80%;
     max-width: 930px;
     margin: 37px auto 255px auto;
 }
 
-.why-section.why-section-romvos .number {
+.why-section.why-section-alphadd .number {
     padding-top: 130px;
 }
 
-.why-section.why-section-romvos .why-section-trigger {
+.why-section.why-section-alphadd .why-section-trigger {
     width: 420px;
     height: 420px;
     float: right;
 }
 
-.why-section.why-section-romvos .why-section-trigger-romvos {
+.why-section.why-section-alphadd .why-section-trigger-alphadd {
     width: 297.906976744px;
     height: 297.906976744px;
     display: block;
@@ -1728,7 +1728,7 @@ a, img {
     -ms-transform-origin: center;
 }
 
-.why-section.why-section-romvos .why-section-text {
+.why-section.why-section-alphadd .why-section-text {
     width: 715px;
     height: 715px;
     top: 63px;
@@ -1741,7 +1741,7 @@ a, img {
     -webkit-opacity: 0;
 }
 
-.why-section.why-section-romvos .why-section-text.loc {
+.why-section.why-section-alphadd .why-section-text.loc {
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     filter: alpha(opacity=100);
     opacity: 1;
@@ -1750,11 +1750,11 @@ a, img {
     -webkit-opacity: 1;
 }
 
-.why-section.why-section-romvos .why-section-text.loc .why-ronvos-piece {
+.why-section.why-section-alphadd .why-section-text.loc .why-ronvos-piece {
     width: 100%;
 }
 
-.why-section.why-section-romvos .why-section-text-romvos {
+.why-section.why-section-alphadd .why-section-text-alphadd {
     width: 507.151162791px;
     height: 507.151162791px;
     display: block;
@@ -1775,7 +1775,7 @@ a, img {
     -ms-transform-origin: center;
 }
 
-.why-section.why-section-romvos .why-ronvos-piece, .why-section.why-section-romvos .why-romvos-piece-2, .why-section.why-section-romvos .why-romvos-piece-3 {
+.why-section.why-section-alphadd .why-ronvos-piece, .why-section.why-section-alphadd .why-alphadd-piece-2, .why-section.why-section-alphadd .why-alphadd-piece-3 {
     width: 0;
     height: 50%;
     background: #fcf3d4;
@@ -1785,34 +1785,34 @@ a, img {
     left: 0;
 }
 
-.why-section.why-section-romvos .why-romvos-piece-2 {
+.why-section.why-section-alphadd .why-alphadd-piece-2 {
     width: 50%;
     height: 0;
     left: 50%;
 }
 
-.why-section.why-section-romvos .why-romvos-piece-3 {
+.why-section.why-section-alphadd .why-alphadd-piece-3 {
     top: 50%;
     left: auto;
     right: 0;
 }
 
-.why-section.why-section-romvos .why-section-text-inner {
+.why-section.why-section-alphadd .why-section-text-inner {
     margin: 0 auto;
     width: 60%;
     position: relative;
     z-index: 10;
 }
 
-.why-section.why-section-romvos .why-section-text-centered {
+.why-section.why-section-alphadd .why-section-text-centered {
     max-width: 380px;
 }
 
-.why-section.why-section-romvos .why-arrow-line {
+.why-section.why-section-alphadd .why-arrow-line {
     background: #a7201e;
 }
 
-.why-section.why-section-romvos .arrow {
+.why-section.why-section-alphadd .arrow {
     width: 0px;
     height: 0px;
     border-style: solid;
@@ -3194,7 +3194,7 @@ a, img {
     color: #282828;
 }
 
-.romvos-footer {
+.alphadd-footer {
     width: 255.348837209px;
     height: 255.348837209px;
     display: block;
@@ -3211,7 +3211,7 @@ a, img {
     right: 0;
 }
 
-.romvos-footer.shadow {
+.alphadd-footer.shadow {
     box-shadow: -15px -20px 0 -10px rgba(233, 233, 233, 0.7);
     -webkit-box-shadow: -15px -20px 0 -10px rgba(233, 233, 233, 0.7);
 }
@@ -4631,19 +4631,19 @@ input:focus, select:focus, textarea:focus {
         font-size: 26px;
     }
 
-    .why-section.why-section-romvos {
+    .why-section.why-section-alphadd {
         width: 100%;
         margin-bottom: 310px;
     }
 
-    .why-section.why-section-romvos .why-section-text {
+    .why-section.why-section-alphadd .why-section-text {
         width: 600px;
         height: 600px;
         right: 91px;
         top: 240px;
     }
 
-    .why-section.why-section-romvos .why-section-text-romvos {
+    .why-section.why-section-alphadd .why-section-text-alphadd {
         width: 425.581395349px;
         height: 425.581395349px;
         display: block;
@@ -4700,13 +4700,13 @@ input:focus, select:focus, textarea:focus {
         position: static;
     }
 
-    .why-section.why-section-circle, .why-section.why-section-love, .why-section.why-section-tech, .why-section.why-section-romvos {
+    .why-section.why-section-circle, .why-section.why-section-love, .why-section.why-section-tech, .why-section.why-section-alphadd {
         width: 100%;
         margin: 0;
         float: none;
     }
 
-    .why-section.why-section-circle .why-section-trigger, .why-section.why-section-circle .why-section-text, .why-section.why-section-circle .why-section-text.loc, .why-section.why-section-love .why-section-trigger, .why-section.why-section-love .why-section-text, .why-section.why-section-love .why-section-text.loc, .why-section.why-section-tech .why-section-trigger, .why-section.why-section-tech .why-section-text, .why-section.why-section-tech .why-section-text.loc, .why-section.why-section-romvos .why-section-trigger, .why-section.why-section-romvos .why-section-text, .why-section.why-section-romvos .why-section-text.loc {
+    .why-section.why-section-circle .why-section-trigger, .why-section.why-section-circle .why-section-text, .why-section.why-section-circle .why-section-text.loc, .why-section.why-section-love .why-section-trigger, .why-section.why-section-love .why-section-text, .why-section.why-section-love .why-section-text.loc, .why-section.why-section-tech .why-section-trigger, .why-section.why-section-tech .why-section-text, .why-section.why-section-tech .why-section-text.loc, .why-section.why-section-alphadd .why-section-trigger, .why-section.why-section-alphadd .why-section-text, .why-section.why-section-alphadd .why-section-text.loc {
         width: 100%;
         height: auto;
         -webkit-border-radius: 0;
@@ -4728,14 +4728,14 @@ input:focus, select:focus, textarea:focus {
         right: auto;
     }
 
-    .why-section.why-section-circle .why-section-text-inner, .why-section.why-section-love .why-section-text-inner, .why-section.why-section-tech .why-section-text-inner, .why-section.why-section-romvos .why-section-text-inner {
+    .why-section.why-section-circle .why-section-text-inner, .why-section.why-section-love .why-section-text-inner, .why-section.why-section-tech .why-section-text-inner, .why-section.why-section-alphadd .why-section-text-inner {
         margin: 0 40px;
         padding: 20px 0 140px 0;
         width: auto;
         float: none;
     }
 
-    .why-section.why-section-circle .why-section-text-centered, .why-section.why-section-love .why-section-text-centered, .why-section.why-section-tech .why-section-text-centered, .why-section.why-section-romvos .why-section-text-centered {
+    .why-section.why-section-circle .why-section-text-centered, .why-section.why-section-love .why-section-text-centered, .why-section.why-section-tech .why-section-text-centered, .why-section.why-section-alphadd .why-section-text-centered {
         max-width: 100%;
     }
 
@@ -4777,16 +4777,16 @@ input:focus, select:focus, textarea:focus {
         bottom: -4px;
     }
 
-    .why-section.why-section-romvos {
+    .why-section.why-section-alphadd {
         z-index: 40;
         margin-bottom: 140px;
     }
 
-    .why-section.why-section-romvos .why-section-trigger, .why-section.why-section-romvos .number {
+    .why-section.why-section-alphadd .why-section-trigger, .why-section.why-section-alphadd .number {
         padding-top: 0;
     }
 
-    .why-section.why-section-romvos .why-section-trigger-romvos {
+    .why-section.why-section-alphadd .why-section-trigger-alphadd {
         -moz-transform: rotate(0);
         -webkit-transform: rotate(0);
         -o-transform: rotate(0);
@@ -4804,15 +4804,15 @@ input:focus, select:focus, textarea:focus {
         margin: 0 0 0 -260px;
     }
 
-    .why-section.why-section-romvos .why-section-trigger, .why-section.why-section-romvos .why-section-text {
+    .why-section.why-section-alphadd .why-section-trigger, .why-section.why-section-alphadd .why-section-text {
         background: #fcf3d4;
     }
 
-    .why-section.why-section-romvos .why-section-text-romvos {
+    .why-section.why-section-alphadd .why-section-text-alphadd {
         display: none;
     }
 
-    .why-section.why-section-romvos .why-section-text-inner {
+    .why-section.why-section-alphadd .why-section-text-inner {
         padding-bottom: 40px;
     }
 
@@ -4913,7 +4913,7 @@ input:focus, select:focus, textarea:focus {
         height: 235px;
     }
 
-    .romvos-footer {
+    .alphadd-footer {
         width: 212.790697674px;
         height: 212.790697674px;
         display: block;
@@ -4961,7 +4961,7 @@ input:focus, select:focus, textarea:focus {
         display: none;
     }
 
-    .why-section.why-section-romvos .why-section-trigger-romvos {
+    .why-section.why-section-alphadd .why-section-trigger-alphadd {
         width: 0px;
         height: 0px;
         border-style: solid;

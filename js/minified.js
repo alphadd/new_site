@@ -5132,8 +5132,8 @@ var Main = {
         why_section_text: $(".why-section-text"),
         why_arrow_line: $(".why-arrow-line"),
         why_close: $(".why-close"),
-        why_romvos_piece_2: $("#why-romvos-piece-2"),
-        why_romvos_piece_3: $("#why-romvos-piece-3"),
+        why_alphadd_piece_2: $("#why-alphadd-piece-2"),
+        why_alphadd_piece_3: $("#why-alphadd-piece-3"),
         show_in_view: $(".show-in-view"),
         service: $(".service"),
         service_text: $(".service-text"),
@@ -5176,8 +5176,8 @@ var Main = {
             else {
                 Main.close_why_boxes(target);
                 if (target == 'box4') {
-                    Main.el.why_romvos_piece_2.animate({"height": '100%'}, 300, function () {
-                        Main.el.why_romvos_piece_3.animate({"width": '100%'}, 300, function () {
+                    Main.el.why_alphadd_piece_2.animate({"height": '100%'}, 300, function () {
+                        Main.el.why_alphadd_piece_3.animate({"width": '100%'}, 300, function () {
                             Main.el.why_section_text.filter('#why-sectiontext-' + target).addClass('loc');
                             Main.el.why_arrow_line.filter('#line-' + target).delay(200).addClass('loc');
                             setTimeout(function () {
