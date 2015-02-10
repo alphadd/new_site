@@ -941,7 +941,7 @@ a, img {
 
 .menu-holder {
     width: 100%;
-    max-width: 417px;
+    max-width: 217px;
     height: 100%;
     position: fixed;
     z-index: 600;
@@ -4240,7 +4240,7 @@ input:focus, select:focus, textarea:focus {
     color: #929292;
     padding: 0 0 8px 0;
     border-bottom: solid 1px #c7cecd;
-    background: #f4f4f4;
+    background: transparent;
     margin: 0 0 28px 0;
     display: block;
     float: none;
