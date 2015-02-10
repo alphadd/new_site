@@ -276,6 +276,77 @@ table {
     height: 42px;
 }
 
+.icon2 {
+    background-image: url("../images/sprites2.png");
+    background-repeat: no-repeat;
+}
+
+.icon2.desktop {
+    background-position: -266px 0px;
+    width: 86px;
+    height: 69px;
+}
+
+.icon2.hash {
+    background-position: -266px -204px;
+    width: 25px;
+    height: 31px;
+}
+
+.icon2.heart {
+    background-position: 0px 0px;
+    width: 258px;
+    height: 235px;
+}
+
+.icon2.iphone {
+    background-position: -327px -77px;
+    width: 20px;
+    height: 35px;
+}
+
+.icon2.laptop {
+    background-position: 0px -243px;
+    width: 82px;
+    height: 42px;
+}
+
+.icon2.pin {
+    background-position: -311px -141px;
+    width: 35px;
+    height: 47px;
+}
+
+.icon2.share {
+    background-position: -299px -204px;
+    width: 32px;
+    height: 31px;
+}
+
+.icon2.tablet {
+    background-position: -266px -141px;
+    width: 37px;
+    height: 55px;
+}
+
+.icon2.thumbs {
+    background-position: -140px -243px;
+    width: 23px;
+    height: 22px;
+}
+
+.icon2.triangle {
+    background-position: -266px -77px;
+    width: 53px;
+    height: 56px;
+}
+
+.icon2.twitter-icon {
+    background-position: -90px -243px;
+    width: 42px;
+    height: 42px;
+}
+
 .fb-icon {
     background-position: -163px -197px;
     width: 42px;
@@ -860,7 +931,7 @@ a, img {
 .menu-handler {
     width: 70px;
     height: 50px;
-    background:;
+    background: white;
     cursor: pointer;
     display: block;
     position: fixed;
@@ -941,7 +1012,7 @@ a, img {
 
 .menu-holder {
     width: 100%;
-    max-width: 417px;
+    max-width: 225px;
     height: 100%;
     position: fixed;
     z-index: 600;
@@ -4240,7 +4311,7 @@ input:focus, select:focus, textarea:focus {
     color: #929292;
     padding: 0 0 8px 0;
     border-bottom: solid 1px #c7cecd;
-    background: #f4f4f4;
+    background: transparent;
     margin: 0 0 28px 0;
     display: block;
     float: none;
