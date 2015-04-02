@@ -1,4 +1,6 @@
 
+@import url(http://fonts.googleapis.com/css?family=Hind:700,400|Crimson+Text:400,400italic);
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
@@ -847,9 +849,8 @@ body, html {
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: arial;
+    font-family: 'Crimson Text', serif;
     font-size: 20px;
-    line-height: 35px;
     background: #faf9f6;
     -webkit-text-size-adjust: auto;
     -ms-text-size-adjust: auto;
@@ -863,6 +864,7 @@ body {
 p {
     margin: 0 0 25px 0;
     padding: 0;
+    color:#999;
 }
 
 ul {
@@ -930,7 +932,6 @@ a, img {
 .menu-handler {
     width: 70px;
     height: 50px;
-    background: white;
     cursor: pointer;
     display: block;
     position: fixed;
@@ -1022,7 +1023,7 @@ a, img {
 
 .menu-holder .menu {
     padding: 175px 76px 0 0;
-    font-family: "arial", serif;
+    font-family: 'Crimson Text', serif;
     font-size: 25px;
     line-height: 27px;
     color: #fff;
@@ -1036,7 +1037,7 @@ a, img {
 }
 
 .menu-holder .menu a:hover, .menu-holder .menu a.loc {
-    color: #ffd810;
+    color: white;
 }
 
 .menu-holder .search-holder {
@@ -3608,16 +3609,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title, .about-title, .big-title, .footer-title, .third-title {
-    font-family: arial;
-    font-size: 40px;
+    font-family: 'Hind', sans-serif;
+    font-size: 90px;
     line-height: 50px;
     color: #020201;
     padding: 0;
     margin: 0;
     font-weight: bold;
     display: block;
-    letter-spacing:1pt;
-    text-transform: uppercase;
+    letter-spacing: -3pt;
 }
 
 .title h1, .title h2, .title h3, .title h4, .title h5, .title h6, .about-title h1, .about-title h2, .about-title h3, .about-title h4, .about-title h5, .about-title h6, .big-title h1, .big-title h2, .big-title h3, .big-title h4, .big-title h5, .big-title h6, .footer-title h1, .footer-title h2, .footer-title h3, .footer-title h4, .footer-title h5, .footer-title h6, .subtitle h1, .subtitle h2, .subtitle h3, .subtitle h4, .subtitle h5, .subtitle h6, .third-title h1, .third-title h2, .third-title h3, .third-title h4, .third-title h5, .third-title h6 {
@@ -5146,8 +5146,8 @@ input:focus, select:focus, textarea:focus {
 
     .menu-holder .menu {
         padding-top: 100px;
-        font-size: 23px;
-        line-height: 25px;
+        font-size: 25pt;
+        line-height: 35pt;
     }
 
     .menu-holder .menu a {
