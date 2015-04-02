@@ -847,10 +847,9 @@ body, html {
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: JoannaMTStd-Regular;
+    font-family: arial;
     font-size: 20px;
     line-height: 35px;
-    color: #6B6A6A;
     background: #faf9f6;
     -webkit-text-size-adjust: auto;
     -ms-text-size-adjust: auto;
@@ -898,12 +897,12 @@ img {
 }
 
 a {
-    color: #a7201e;
+    color: #e82235;
     text-decoration: none;
 }
 
 a:hover {
-    color: #a7201e;
+    color: #e82235;
     text-decoration: none;
 }
 
@@ -974,7 +973,7 @@ a, img {
 }
 
 .menu-handler:hover .burger {
-    background: #a7201e;
+    background: #e82235;
 }
 
 .menu-handler.active .burger {
@@ -1018,12 +1017,12 @@ a, img {
     z-index:600;
     top:0;
     right:-100%;
-    background:#a7201e;
+    background:#e82235;
 }
 
 .menu-holder .menu {
     padding: 175px 76px 0 0;
-    font-family: "JoannaMTStd-Regular", serif;
+    font-family: "arial", serif;
     font-size: 25px;
     line-height: 27px;
     color: #fff;
@@ -1074,7 +1073,7 @@ a, img {
 .home-slider-holder .slide-nav-dot {
     width: 12px;
     height: 12px;
-    border: solid 2px #a7201e;
+    border: solid 2px #e82235;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -1097,7 +1096,7 @@ a, img {
 
 .home-slider-holder .slide-nav-line {
     width: 2px;
-    background: #a7201e;
+    background: #e82235;
     position: absolute;
     z-index: 5;
     top: -7px;
@@ -1116,7 +1115,7 @@ a, img {
     margin: 0 0 0 -24px;
     cursor: pointer;
     display: block;
-    background: #a7201e;
+    background: #e82235;
 }
 
 .button-scroll-down .arrow-line {
@@ -1127,7 +1126,7 @@ a, img {
     position: absolute;
     display: block;
     margin: 0 0 0 -1px;
-    background: #282828;
+    background: none repeat scroll 0% 0% white;
     z-index: 1;
 }
 
@@ -1136,7 +1135,7 @@ a, img {
     height: 0px;
     border-style: solid;
     border-width: 7px 6px 0 6px;
-    border-color: #282828 transparent transparent transparent;
+    border-color: white transparent transparent;
     display: block;
     position: absolute;
     z-index: 4;
@@ -1301,7 +1300,7 @@ a, img {
 }
 
 .content.text h1, .content.text h2, .content.text h3, .content.text h4 {
-    color: #a7201e;
+    color: #e82235;
     font-weight: normal;
     margin: 0 0 3px 0;
 }
@@ -1385,7 +1384,7 @@ a, img {
 .why-section {
     width: 100%;
     position: relative;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 30px;
     line-height: 32px;
     color: #282828;
@@ -1636,7 +1635,7 @@ a, img {
     max-width: 600px;
     min-width: 300px;
     height: 360px;
-    background: #a7201e;
+    background: #e82235;
     float: right;
 }
 
@@ -1645,7 +1644,7 @@ a, img {
     height: 100%;
     top: 0;
     right: 0;
-    background: #a7201e;
+    background: #e82235;
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     filter: alpha(opacity=0);
     opacity: 0;
@@ -1741,7 +1740,7 @@ a, img {
 .why-section.why-section-tech .why-arrow-line {
     width: 156px;
     height: 2px;
-    background: #a7201e;
+    background: #e82235;
     left: -90px;
     top: 53px;
 }
@@ -1755,7 +1754,7 @@ a, img {
     height: 0px;
     border-style: solid;
     border-width: 6px 0 6px 5px;
-    border-color: transparent transparent transparent #a7201e;
+    border-color: transparent transparent transparent #e82235;
     left: auto;
     right: -4px;
     top: -5px;
@@ -1880,7 +1879,7 @@ a, img {
 }
 
 .why-section.why-section-alphadd .why-arrow-line {
-    background: #a7201e;
+    background: #e82235;
 }
 
 .why-section.why-section-alphadd .arrow {
@@ -1888,7 +1887,7 @@ a, img {
     height: 0px;
     border-style: solid;
     border-width: 0 6px 5px 6px;
-    border-color: transparent transparent #a7201e transparent;
+    border-color: transparent transparent #e82235 transparent;
     display: block;
 }
 
@@ -1961,7 +1960,7 @@ a, img {
 }
 
 .why-close.loc:hover .line-fill {
-    background: #a7201e;
+    background: #e82235;
 }
 
 .why-close.white.loc:hover .line-fill {
@@ -2035,7 +2034,7 @@ a, img {
 }
 
 .close-x.loc:hover .line-fill {
-    background: #a7201e;
+    background: #e82235;
 }
 
 .close-x.white .line-fill {
@@ -2074,10 +2073,10 @@ a, img {
     zoom: 1;
     position: relative;
     margin: 0 80px 260px 80px;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 25px;
     line-height: 27px;
-    color: #a7201e;
+    color: #e82235;
     cursor: pointer;
 }
 
@@ -2162,7 +2161,7 @@ a, img {
     z-index: 400;
     bottom: 0;
     left: 0;
-    background: #a7201e;
+    background: #e82235;
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=96);
     filter: alpha(opacity=96);
     opacity: 0.96;
@@ -2215,7 +2214,7 @@ a, img {
 
 .process .process-slider-number {
     text-align: center;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 25px;
     line-height: 27px;
     color: #282828;
@@ -2351,7 +2350,7 @@ a, img {
     zoom: 1;
     padding: 17px 35px;
     min-width: 80px;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 21px;
     line-height: 23px;
     color: #fff;
@@ -2419,8 +2418,8 @@ a, img {
 }
 
 .slide-nav-hor.process-nav .slide-nav-dot:hover, .slide-nav-hor.process-nav .slide-nav-dot.loc {
-    background: #a7201e;
-    border-color: #a7201e;
+    background: #e82235;
+    border-color: #e82235;
 }
 
 .slide-nav-hor .nav-line-connector {
@@ -2536,7 +2535,7 @@ a, img {
 
 .projects-text {
     padding: 160px 0 58px 0;
-    background:#FCF3D4;
+    background:white;
     text-align: center;
     position: relative;
 }
@@ -2562,7 +2561,7 @@ a, img {
     vertical-align: top;
     zoom: 1;
     position: relative;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 14px;
     line-height: 16px;
     color: #646464;
@@ -2628,8 +2627,8 @@ a, img {
     -moz-opacity: 0;
     -khtml-opacity: 0;
     -webkit-opacity: 0;
-    background: none repeat scroll 0% 0% #FCF3D4;
-    border: 4px solid black;
+    background: none repeat scroll 0% 0% white;
+    border: 4px solid #000;
 }
 
 .projects-thumbs .project-hover-types {
@@ -2721,7 +2720,7 @@ a, img {
 .project .title-divider {
     width: 100%;
     height: 2px;
-    background: #a7201e;
+    background: #e82235;
     position: absolute;
     top: -100%;
     left: -76px;
@@ -2830,7 +2829,7 @@ a, img {
 }
 
 .project-toolbar .back-to-thumbs:hover {
-    background-color: #a7201e;
+    background-color: #e82235;
 }
 
 .project-toolbar .back-to-thumbs .thumbs {
@@ -2853,7 +2852,7 @@ a, img {
 }
 
 .project-toolbar .share-btn:hover {
-    background-color: #a7201e;
+    background-color: #e82235;
 }
 
 .project-toolbar .share-btn .share {
@@ -2906,7 +2905,7 @@ a, img {
 }
 
 .project-toolbar .share-option:hover {
-    background: #a7201e;
+    background: #e82235;
 }
 
 .project-toolbar .share-option.loc {
@@ -2947,7 +2946,7 @@ a, img {
 }
 
 .project-toolbar a.project-next:hover, .project-toolbar a.project-prev:hover {
-    background-color: #a7201e;
+    background-color: #e82235;
 }
 
 .project-toolbar a.project-next:hover .prev-next-label, .project-toolbar a.project-prev:hover .prev-next-label {
@@ -3043,7 +3042,7 @@ a, img {
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 16px;
     line-height: 18px;
     color: #282828;
@@ -3068,7 +3067,7 @@ a, img {
 .sitemap a {
     display: block;
     text-align: center;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 20px;
     line-height: 22px;
     color: #282828;
@@ -3076,7 +3075,7 @@ a, img {
 }
 
 .sitemap a:hover {
-    color: #a7201e;
+    color: #e82235;
 }
 
 .sitemap .wave {
@@ -3175,8 +3174,8 @@ a, img {
 }
 
 .twitter-block .slide-nav-hor .slide-nav-dot:hover, .twitter-block .slide-nav-hor .slide-nav-dot.loc {
-    background: #a7201e;
-    border-color: #a7201e;
+    background: #e82235;
+    border-color: #e82235;
 }
 
 .twitter-block .slide-nav-hor .slide-nav-line {
@@ -3191,7 +3190,7 @@ a, img {
     zoom: 1;
     padding: 17px 35px;
     min-width: 80px;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 21px;
     line-height: 23px;
     color: #404040;
@@ -3253,11 +3252,11 @@ a, img {
     float: right;
     padding: 108px 0 0 0;
     text-align: center;
-    color: #a7201e;
+    color: #e82235;
 }
 
 .footer-header a {
-    color: #a7201e;
+    color: #e82235;
     font-weight: bold;
 }
 
@@ -3357,7 +3356,7 @@ a, img {
 }
 
 .copyrights a:hover, .copyrights a.loc {
-    color: #a7201e;
+    color: #e82235;
 }
 
 .copyrights .right-col {
@@ -3372,7 +3371,7 @@ a, img {
     zoom: 1;
     padding: 17px 35px;
     min-width: 80px;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 21px;
     line-height: 23px;
     color: #fff;
@@ -3421,7 +3420,7 @@ a, img {
     -moz-opacity: 0.9;
     -khtml-opacity: 0.9;
     -webkit-opacity: 0.9;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 154px;
     line-height: 161px;
     color: #c5b547;
@@ -3430,7 +3429,7 @@ a, img {
 }
 
 .title-404 {
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 184px;
     line-height: 184px;
     color: #282828;
@@ -3469,7 +3468,7 @@ a, img {
 }
 
 .search-result .box {
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 20px;
     line-height: 22px;
     color: #282828;
@@ -3497,7 +3496,7 @@ a, img {
     zoom: 1;
     padding: 17px 35px;
     min-width: 80px;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 21px;
     line-height: 23px;
     color: #fff;
@@ -3530,7 +3529,7 @@ a, img {
 }
 
 .highlight {
-    color: #a7201e;
+    color: #e82235;
 }
 
 .loading {
@@ -3609,13 +3608,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title, .about-title, .big-title, .footer-title, .third-title {
-    font-family: JoannaMTStd-Regular;
+    font-family: arial;
     font-size: 40px;
     line-height: 50px;
     color: #020201;
     padding: 0;
     margin: 0;
-    font-weight: normal;
+    font-weight: bold;
     display: block;
     letter-spacing:1pt;
     text-transform: uppercase;
@@ -3654,6 +3653,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 22px;
     line-height: 28px;
     margin: 13px 0 38px 0;
+    color: #e82235;
+font-weight:lighter;
 }
 
 .third-title {
@@ -3664,7 +3665,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .third-titlea:hover {
-    color: #a7201e;
+    color: #e82235;
 }
 
 .third-title.nogap {
@@ -3691,7 +3692,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .initial-letter {
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 191px;
     line-height: 191px;
     color: #fff;
@@ -3701,7 +3702,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bordered-title {
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 22px;
     line-height: 24px;
     color: #fff;
@@ -3724,7 +3725,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mint-bg {
-    background: #FCF3D4;
+    background: white;
 }
 
 .mint {
@@ -3744,7 +3745,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .coral {
-    color: #a7201e;
+    color: #e82235;
 }
 
 .black-links a {
@@ -3752,7 +3753,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .black-links a:hover {
-    color: #a7201e;
+    color: #e82235;
 }
 
 .overflow {
@@ -3949,12 +3950,12 @@ a, a:hover, .trans, .trans:hover, input, input:focus, textarea, textarea:focus, 
 }
 
 ::-moz-selection {
-    background: #a7201e;
+    background: #e82235;
     color: #fff;
 }
 
 ::selection {
-    background: #a7201e;
+    background: #e82235;
     color: #fff;
 }
 
@@ -4224,7 +4225,7 @@ input:focus, select:focus, textarea:focus {
     display: block;
     float: none;
     background: #fff;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 16px;
     line-height: 18px;
     color: #737373;
@@ -4337,7 +4338,7 @@ input:focus, select:focus, textarea:focus {
 .input, .textarea {
     width: 100%;
     border: none;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 16px;
     line-height: 18px;
     color: #929292;
@@ -4350,7 +4351,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 .input:focus, .textarea:focus {
-    color: #a7201e;
+    color: #e82235;
 }
 
 .textarea {
@@ -4457,7 +4458,7 @@ input:focus, select:focus, textarea:focus {
 .ns-input {
     width: 100%;
     border: none;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 16px;
     line-height: 18px;
     color: #737373;
@@ -4470,7 +4471,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 .ns-input:focus {
-    color: #a7201e;
+    color: #e82235;
 }
 
 [placeholder]:focus::-webkit-input-placeholder {
@@ -4536,10 +4537,10 @@ input:focus, select:focus, textarea:focus {
 .form-reply, .ns-reply {
     margin: 0;
     padding: 10px 0;
-    font-family: "JoannaMTStd-Regular";
+    font-family: "arial";
     font-size: 18px;
     line-height: 24px;
-    color: #a7201e;
+    color: #e82235;
 }
 
 .form-reply {
